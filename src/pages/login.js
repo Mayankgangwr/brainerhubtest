@@ -40,7 +40,7 @@ const Login = () => {
       (item) =>
         item.username == logins.username && item.password == logins.password
     );
-    if (
+    if (userdt.length>0 &&
       userdt[0].username == logins.username &&
       userdt[0].password == logins.password
     ) {

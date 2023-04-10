@@ -11,7 +11,7 @@ const UserList = () => {
       {users.length > 0 ? (
         <>
           {users.map((user) => (
-            <li className="d-flex" key={user.id}>
+            <li className="d-flex my-2 mx-2" key={user.id}>
               <strong>{user.name}</strong>
               <div style={{ marginLeft: "auto" }}>
                 <div className="btn-group">

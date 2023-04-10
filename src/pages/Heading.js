@@ -25,46 +25,8 @@ const Heading = () => {
               <span>Bainer</span>Hub
             </h6>
           </a>
-          <div className="dropdown ms-auto mt-1 d-mobile">
-            <a
-              className="text-reset me-2 dropdown-toggle hidden-arrow"
-              href="#"
-              id="navbarDropdownMenuLink2"
-              role="button"
-              data-mdb-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <i className="fas fa-search"></i>
-            </a>
-            <ul
-              style={{ width: "300px" }}
-              className="dropdown-menu dropdown-menu-end mt-2  bg-dark"
-              aria-labelledby="navbarDropdownMenuLink2"
-            >
-              <li className="nav-item">
-
-              </li>
-            </ul>
-          </div>
-          <div className="dropdown ms-3 mt-1 d-mobile">
-            <a
-              className="text-reset me-2 dropdown-toggle hidden-arrow"
-              href="#"
-              id="navbarDropdownMenuLink"
-              role="button"
-              data-mdb-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <i className="fas fa-bars"></i>
-            </a>
-            <ul
-              className="dropdown-menu dropdown-menu-end  bg-dark"
-              aria-labelledby="navbarDropdownMenuLink"
-            >
-            <li className="nav-item text-light">
-                    <button className="btn btn-danger" onClick={Logout}>Logout</button>
-                </li>
-            </ul>
+          <div className="ms-3 mt-1 d-mobile">
+              <button className="btn btn-danger" onClick={Logout}>Logout</button>
           </div>
           <div
             className="collapse navbar-collapse d-desktop"
